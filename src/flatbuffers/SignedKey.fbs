@@ -1,0 +1,10 @@
+namespace tuix;
+
+table SignedKey {
+    // The symmetric key
+    key:[ubyte];
+    // A signature of the symmetric key
+    sig:[ubyte];
+}
+
+root_type SignedKey;
