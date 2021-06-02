@@ -19,7 +19,7 @@ To build `mc2-serialization` for an enclave, add the following to your `CMakeLis
 include(FetchContent)
 FetchContent_Declare(
   mc2_serialization
-  GIT_REPOSITORY git@github.com:mc2-project/mc2-serialization.git
+  GIT_REPOSITORY https//github.com/mc2-project/mc2-serialization.git
 )
 set(FETCHCONTENT_QUIET OFF)
 FetchContent_MakeAvailable(mc2_serialization)
@@ -32,7 +32,7 @@ To build `mc2-serialization` for a host, add the following to your `CMakeLists.t
 include(FetchContent)
 FetchContent_Declare(
   mc2_serialization
-  GIT_REPOSITORY git@github.com:mc2-project/mc2-serialization.git
+  GIT_REPOSITORY https://github.com/mc2-project/mc2-serialization.git
 )
 set(FETCHCONTENT_QUIET OFF)
 set(HOST ON CACHE BOOL "")
